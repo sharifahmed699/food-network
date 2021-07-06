@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+section{
+    display: flex;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.span-color{
+    color: gold;
+}
+.button-text{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    background-color: gold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(gold, rgb(255, 0, 34) );
+
+}
+
+.about-background{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#about-image{
+    width: 50%;
+}
+#about-padding{
+    padding:100px 100px 0px 170px;
+}
+
+.button-margin{
+    margin-bottom: 60px;
+}
+
+#header-padding{
+    padding:50px 0px 0px 80px;
+}
+#header-left{
+    padding-top:100px;
+}
