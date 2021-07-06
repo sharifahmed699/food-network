@@ -3,14 +3,17 @@ body{
 }
 
 section{
-    display: flex;
     margin-bottom: 50px;
 }
+
 h1{
     font-size: 50px;
 }
 p{
     font-size: 20px;
+}
+.section-container{
+    display: flex;
 }
 .half-width{
     width: 50%;
@@ -52,4 +55,34 @@ p{
 }
 #header-left{
     padding-top:100px;
+}
+
+.recipie-title{
+    text-align: center;
+   margin: auto;
+   width: 50%;
+   padding-bottom: 30px;
+}
+.recipie-content img{
+    width: 50%;
+}
+.recipie-content{
+   border: 10px solid white;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px gray;
+   margin:0px 15px
+}
+.recipie-img img{
+    width: 100%;
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+
+}
+
+#recipie-padding{
+    padding:0px 60px 0px 60px;
+}
+.recipie-text{
+    width: 100%;
 }
