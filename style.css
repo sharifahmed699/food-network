@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 section{
@@ -101,4 +102,27 @@ p{
     background-color:#0B0D17;
     height: 100px;
     padding: 20px 0px;
+}
+
+.menu-bar{
+    background-color:#faf7f7;
+    height: 3.5rem;
+}
+
+.menu-bar ul{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+
+.menu-bar ul li {
+    list-style-type:none;
+    padding: 0 1rem;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(182, 156, 7);
 }
